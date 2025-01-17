@@ -1,0 +1,65 @@
+{
+    "config": [
+        {
+            "key": "name",
+            "hide": false,
+            "rank": 0,
+            "parent": "",
+            "component": "textfield"
+        },
+        {
+            "key": "status",
+            "rank": 1,
+            "parent": "",
+            "component": "select",
+            "options": [
+                {
+                    "value": "open",
+                    "label": "Open"
+                },
+                {
+                    "value": "inProgress",
+                    "label": "In Progress"
+                },
+                {
+                    "value": "done",
+                    "label": "Done"
+                }
+            ]
+        },
+        {
+            "key": "assignee",
+            "rank": 2,
+            "parent": "",
+            "component": "select"
+        },
+        {
+            "key": "priority",
+            "rank": 3,
+            "parent": "",
+            "component": "select",
+            "options": [
+                {
+                    "value": "low",
+                    "label": "Low"
+                },
+                {
+                    "value": "medium",
+                    "label": "Medium"
+                },
+                {
+                    "value": "high",
+                    "label": "High"
+                }
+            ]
+        },
+        {
+            "key": "dueDate",
+            "hide": false,
+            "rank": 4,
+            "parent": "",
+            "component": "date-picker"
+        }
+    ],
+    "mode": "edit"
+}

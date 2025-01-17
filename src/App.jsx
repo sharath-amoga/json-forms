@@ -7,6 +7,9 @@ import Form2 from './form/form2'
 import Form3 from './form/form3'
 import Form4 from './form/form4'
 import Form5 from './form/form5'
+import Form6 from './object/form'
+
+
 function App() {
 
   return (
@@ -14,6 +17,7 @@ function App() {
 
       <div className='form-root'>
         {/* <Form /> */}
+        <Form6 />
 
 
         <br />
@@ -27,6 +31,9 @@ function App() {
         <br />
 
         <Form5 />
+        <br />
+        <br />
+
       </div>
     </div>
 
