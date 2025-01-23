@@ -82,13 +82,14 @@ const DynamicForm = () => {
     setDefaultValuesAfterDelay(data, defaultValues, setData);
   }, []);
 
-  const handleSubmit = () =>{
+  const handleSubmit = () => {
     console.log(data);
   }
 
+  console.log(schema)
   return (
     <div>
-      <h1>Dynamic Form</h1>
+      <h1>Object Form</h1>
       <JsonForms
         schema={schema}
         uischema={uischema}

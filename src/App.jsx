@@ -8,7 +8,7 @@ import Form3 from './form/form3'
 import Form4 from './form/form4'
 import Form5 from './form/form5'
 import Form6 from './object/form'
-
+import Liveform from './liveform'
 
 function App() {
 
@@ -16,8 +16,9 @@ function App() {
     <div>
 
       <div className='form-root'>
+        <Liveform />
         {/* <Form /> */}
-        <Form6 />
+        {/* <Form6 />
 
 
         <br />
@@ -32,7 +33,7 @@ function App() {
 
         <Form5 />
         <br />
-        <br />
+        <br /> */}
 
       </div>
     </div>
